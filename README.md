@@ -1,6 +1,5 @@
 # Proyecto_Programaci-n_Web_1
-## Programación Web 1.
-### Grupo: 1557.
+## Grupo: 1557.
 
 > Integrantes:
 
