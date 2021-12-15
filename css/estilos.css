@@ -17,7 +17,7 @@ a:hover{
 }
 
 #wrap{
-    width: 1060px;
+    width: 1200px;
     margin: auto;
     clear: both;
     
@@ -105,7 +105,7 @@ header #subheader nav ul li a:hover{
 /*slideshow*/
 
 #slideshow{
-    width: 1020px;
+    width: 1200px;
     height: 260px;
     float: left;
     background: #000;   
@@ -116,19 +116,19 @@ header #subheader nav ul li a:hover{
 
 
 #bienvenidos{
-    width: 1020px;
+    width: 1160px;
     float: left;
     padding: 20px;
     
         background: #0066CC; /* Old browsers */
-        background: -moz-linear-gradient(top, #46793a 0%, #2d4c1e 100%, #2d4c1e 100%, #207cca 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top, #46793a 0%,#2d4c1e 100%,#2d4c1e 100%,#207cca 100%); /* Chrome10-25,Safari5.1-6 */
+        background: -moz-linear-gradient(top, #0066CC 0%, #0066CC 100%, #0066CC 100%, #0066CC 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #0066CC 0%,#0066CC 100%,#0066CC 100%,#0066CC 100%); /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(to bottom, #0066CC 0%,#0066CC 100%,#0066CC 100%,#0066CC 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46793a', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066CC', endColorstr='#0066CC',GradientType=0 ); /* IE6-9 */
     
         margin: 20px 0px;
         border-radius: 5px;
-        box-shadow: 0px 2px 2px #000;/*Sombra*/
+        box-shadow: 0px 2px 2px #003366;/*Sombra*/
      
 }
 
@@ -150,7 +150,7 @@ header #subheader nav ul li a:hover{
 #bienvenidos article h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:white;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 10px;
     }
 
@@ -161,6 +161,48 @@ header #subheader nav ul li a:hover{
 
 #bienvenidos li {
     color:white;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
+}
+
+/*Articulos-*/
+
+#contenido{
+    width: 800px;
+    float: left;
+    padding: 20px;   
+}
+
+#contenido article{
+    float: left;
+    margin-bottom: 20px;
+}
+
+#contenido article .titulo{
+    font-size: 33px;
+    font-family: planeas;
+    color:#00FFFF;
+    
+}
+
+#contenido article .fecha{
+    
+    font-size: 22px;
+    color:#FFFFFF;
+    margin-bottom: 5px;
+}
+
+.thumb{ /*imagen formato*/
+    width: 220px; /*largo*/
+    height: 150px;/*ancho*/
+    float: left;/*elementos a la izquierda*/
+    margin: 0px 10px 10px 0px;
+    
+}
+
+#contenido article p{
+    color: #FFFFFF;
+    font-size:14px;
+    text-align: justify;
+    line-height: 27px;/*espaciando entre cada linea*/
 }

@@ -3,3 +3,8 @@
     font-family: Satan;
     src: url(../fuentes/who\ asks\ satan.ttf);
 }
+
+@font-face {
+    font-family: planetas;
+    src: url(../fuentes/Planets.otf);
+}
