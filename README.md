@@ -8,3 +8,4 @@
 * Iván Alexander Ramirez Martinez 
 * Victor del Angel Sánchez Sánchez 
 * Luis Enrique Espitia Naves
+* Ana Karen Reyes Cicilia
