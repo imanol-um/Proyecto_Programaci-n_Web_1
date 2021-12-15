@@ -206,3 +206,8 @@ header #subheader nav ul li a:hover{
     text-align: justify;
     line-height: 27px;/*espaciando entre cada linea*/
 }
+#contenido article .letrac{
+    color: #00CCCC;
+    font-size: 14px;
+}
+
