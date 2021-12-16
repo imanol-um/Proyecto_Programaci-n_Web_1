@@ -22,7 +22,7 @@ a:hover{
     clear: both;
     
 }
-/*Header*/
+/* Seccion general -----------------------------------------------------------*/
 header{
     width: 100%;
     float: left;
@@ -61,7 +61,7 @@ header{
 
 
 
-/*--Menu --*/
+/*--Menu--*/
 
 header #subheader nav{
     float: left;
@@ -92,7 +92,7 @@ header #subheader nav ul li a:hover{
     text-decoration: none;
 }
 
-/*Main*/
+/*Fin de Seccion general----------------------------------------------------------------------*/
 
 
 #main{
