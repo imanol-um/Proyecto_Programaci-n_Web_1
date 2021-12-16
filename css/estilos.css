@@ -8,6 +8,15 @@ body{
         
 }
 
+#wrap{
+    width: 1200px;
+    margin: auto;
+    clear: both;
+    
+}
+
+/* Seccion general -----------------------------------------------------------*/
+
 a{   text-decoration: none;
     color:black;
 }
@@ -16,13 +25,6 @@ a:hover{
     text-decoration: underline;
 }
 
-#wrap{
-    width: 1200px;
-    margin: auto;
-    clear: both;
-    
-}
-/*Header*/
 header{
     width: 100%;
     float: left;
@@ -61,7 +63,7 @@ header{
 
 
 
-/*--Menu --*/
+/*--Menu--*/
 
 header #subheader nav{
     float: left;
@@ -92,7 +94,7 @@ header #subheader nav ul li a:hover{
     text-decoration: none;
 }
 
-/*Main*/
+/*Fin de Seccion general----------------------------------------------------------------------*/
 
 
 #main{
