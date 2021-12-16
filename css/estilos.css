@@ -8,6 +8,15 @@ body{
         
 }
 
+#wrap{
+    width: 1200px;
+    margin: auto;
+    clear: both;
+    
+}
+
+/* Seccion general -----------------------------------------------------------*/
+
 a{   text-decoration: none;
     color:black;
 }
@@ -16,13 +25,6 @@ a:hover{
     text-decoration: underline;
 }
 
-#wrap{
-    width: 1200px;
-    margin: auto;
-    clear: both;
-    
-}
-/* Seccion general -----------------------------------------------------------*/
 header{
     width: 100%;
     float: left;

@@ -2,6 +2,14 @@
 @import url('fuentes.css');
 
 /*Header*/
+a{   text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 header{
     width: 100%;
     float: left;
