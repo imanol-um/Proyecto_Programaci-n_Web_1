@@ -192,6 +192,13 @@ header #subheader nav ul li a:hover{
     margin-bottom: 5px;
 }
 
+#contenido article .simple{
+    
+    font-size: 22px;
+    color:#FFFFFF;
+    margin-bottom: 5px;
+}
+
 .thumb{ /*imagen formato*/
     width: 220px; /*largo*/
     height: 150px;/*ancho*/
