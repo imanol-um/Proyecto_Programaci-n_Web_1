@@ -62,7 +62,6 @@ header{
 #logotipo a:hover{text-decoration: none;}
 
 
-
 /*--Menu--*/
 
 header #subheader nav{
@@ -178,14 +177,18 @@ header #subheader nav ul li a:hover{
 #contenido article{
     float: left;
     margin-bottom: 20px;
+    border-top: #6666FF outset;
+    border-left: #6666FF outset;
 }
 
 #contenido article .titulo{
     font-size: 33px;
     font-family: planeas;
     color:#00FFFF;
-    
 }
+
+#contenido article hgroup a{text-decoration: none;}
+
 
 #contenido article .fecha{
     
@@ -220,3 +223,23 @@ header #subheader nav ul li a:hover{
     font-size: 14px;
 }
 
+
+.pie{
+    width: 100%;
+    float: left;
+    @font-face
+    font-family: Satan;
+    background: #009999; /* Old browsers */
+    background: -moz-linear-gradient(top, #009999 0%, #006666  100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #009999 0%,#006666  6FF 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #009999 0%,#006666  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#006666 ',GradientType=0 ); /* IE6-9 */
+        box-shadow: 0px 5px 5px 0px #808080;
+
+    font-family:fantasy, inherit, sans-serif;
+}
+
+.letra{
+    font-size: 15px;
+
+}
