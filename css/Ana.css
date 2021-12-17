@@ -115,14 +115,16 @@ body{
     font-family: Binjay;
     color:#ba59bc;
     text-align: center;
+    padding: 15px;
 }
 #recuadro article .letra{
-    font-size: 10px;
+    font-size: 15px;
     font-family: Males;
     color:#000000;
+    padding: 3px;
 }
 #recuadro article .letra2{
-    font-size: 10px;
+    font-size: 15px;
     font-family: Gihun;
     color:#000000;
 }
