@@ -87,6 +87,7 @@ header #subheader nav ul li a:hover{
     height: 150px;/*ancho*/
     float: left;/*elementos a la izquierda*/
     margin: 0px 10px 10px 0px;
+    border-radius: 20px;
     
 }
 /* -------- Los estilos personales -------- */
@@ -96,18 +97,21 @@ body{
         
 }
 #recuadro{
-    width: 800px;
-    float: left;
-    padding: 20px;
+    width: auto;
+    float:center;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 #recuadro article{
     float: left;
-    margin-bottom: 20px;
+    margin: 20px;
     border: #6b874c 5px solid;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: #bae1aa;
+    padding: 20px;
 }
 
 #recuadro article .titulo{
@@ -115,16 +119,34 @@ body{
     font-family: Binjay;
     color:#ba59bc;
     text-align: center;
-    padding: 15px;
 }
 #recuadro article .letra{
-    font-size: 15px;
+    font-size: 20px;
     font-family: Males;
     color:#000000;
-    padding: 3px;
 }
 #recuadro article .letra2{
     font-size: 15px;
     font-family: Gihun;
     color:#000000;
+}
+
+.thumb2{ /*imagen formato*/
+    width: 220px; /*largo*/
+    height: 220px;/*ancho*/
+    float: right;/*elementos a la izquierda*/
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    
+/* 
+
+width: 220px; /*largo/
+height: 150px;/*ancho/
+float: left;/*elementos a la izquierda/
+margin: 0px 10px 10px 0px;
+border-radius: 20px;
+
+*/
+    
+ 
 }
