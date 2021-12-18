@@ -159,7 +159,9 @@ td{
     float: left;/*elementos a la izquierda*/
     margin: 0px 10px 10px 0px;
     border-radius: 5px;
-    padding-left: 10px;
+    border:  2px double aliceblue;
+    padding: 5px;
+
     
 }
 .tabla1{
@@ -167,16 +169,20 @@ td{
     background:linear-gradient(to top, #4f98c9 0%, rgb(25,78,125)100%);
     border-radius: 15px;
     align-content: center;
+    border: 15px dotted rgb(168, 216, 248);
 }
 .tabla2{
     
     background:linear-gradient(to top,rgb(255,20,50)0% ,#77323f 100% ) ;
     border-radius: 15px;
     align-content: center;
+    border-radius: 35px;
+    border: 15px double rgb(238, 104, 104);
 }
 .tabla3{
     background:linear-gradient(to bottom,#33a533 0%, rgb(192, 243, 104)) ;
     border-radius: 15px;
     align-content: center;
+    border: 12px dashed rgb(161, 240, 174);
 
 }
