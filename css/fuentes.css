@@ -25,3 +25,12 @@
     font-family: Simvoni;
     src: url(../fuentes/Louis_George_Cafe_Italic.ttf);
 }
+/*Ikneel´s fonts*/
+@font-face {
+    font-family: Bodo;
+    src: url(../fuentes/Bodo\ Amat.ttf);
+}
+@font-face {
+    font-family: Tomodachy ;
+    src: url(../fuentes/Tomodachy.otf);
+}
