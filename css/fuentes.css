@@ -34,3 +34,10 @@
     font-family: Tomodachy ;
     src: url(../fuentes/Tomodachy.otf);
 }
+
+/*--- Estilos ivan ---*/
+
+@font-face{
+    font-family: gooddog;
+    src: url(..//fuentes/GOODDC__.TTF);
+}

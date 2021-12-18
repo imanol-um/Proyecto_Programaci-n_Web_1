@@ -145,13 +145,30 @@ header #subheader nav ul li a:hover{
     
 }
 
-h1{
-    font-size: 18px;
-    color: aliceblue;  
+.tit{
+    font-size: 50px;
+    color: aliceblue;
+    font-family:gooddog ;
 }
-td{
-    font-size: 16px;
-    color: rgb(147, 216, 232);
+.tit1{
+    font-size: 30px;
+    color: aliceblue;
+    font-family:gooddog ;
+}
+.texto{
+    font-size: 20px;
+    font-family: Tomodachy;
+    color: rgb(172, 221, 207);
+}
+.texto1{
+    font-size: 20px;
+    font-family: Tomodachy;
+    color: rgb(233, 218, 160);
+}
+.texto2{
+    font-size: 20px;
+    font-family: Tomodachy;
+    color: rgb(72, 48, 97);
 }
 .thumb{ /*imagen formato*/
     width: 220px; /*largo*/
