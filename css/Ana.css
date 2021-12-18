@@ -116,18 +116,18 @@ body{
 
 #recuadro article .titulo{
     font-size: 33px;
-    font-family: Binjay;
     color:#ba59bc;
     text-align: center;
+    font-family: Males;
 }
 #recuadro article .letra{
     font-size: 20px;
-    font-family: Males;
+    font-family: Gihun;
     color:#000000;
 }
 #recuadro article .letra2{
-    font-size: 15px;
-    font-family: Gihun;
+    font-size: 18px;
+    font-family: Simvoni;
     color:#000000;
 }
 
@@ -137,16 +137,53 @@ body{
     float: right;/*elementos a la izquierda*/
     margin: 10px 10px 10px 10px;
     border-radius: 20px;
-    
-/* 
+}
 
-width: 220px; /*largo/
-height: 150px;/*ancho/
-float: left;/*elementos a la izquierda/
-margin: 0px 10px 10px 0px;
-border-radius: 20px;
+/* -------- Los estilos Pie de pagina General -------- */
+.pie{
+    padding: auto;
+    width: 100%;
+    float: left;
+    @font-face
+    font-family: Satan;
+    background: #009999; /* Old browsers */
+    background: -moz-linear-gradient(top, #009999 0%, #006666  100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #009999 0%,#006666  100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #009999 0%,#006666  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#006666 ',GradientType=0 ); /* IE6-9 */
+        box-shadow: 5px 5px 5px 5px #808080;
 
-*/
+    font-family:fantasy, inherit, sans-serif;
+    margin-top: 20px;
+}
+
+.letra{
+    font-size: 14px;
+    padding-left: auto;
+
+}
+
+#redes-s{  
+    float: left;
+    width: 300px;
+    padding: 10px 10px;
     
- 
+}
+
+#derechos{
+    float: right;
+    width: 900px;
+    padding: 50px;
+    
+}
+
+.h3{
+    font-size: 18x;  
+}
+
+#profe{
+    float: left;
+    width: auto;
+    padding: 10px;
+    
 }
