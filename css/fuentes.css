@@ -13,8 +13,8 @@
 }
 
 @font-face {
-    font-family: MCKLB;
-    src: url(../fuentes/MCKLB___.ttf);
+    font-family: patitas;
+    src: url(../fuentes/Animal_Paw.ttf);
 }
 
 @font-face {
@@ -27,6 +27,15 @@
     src: url(../fuentes/SEVERINA.ttf);
 }
 
+@font-face {
+    font-family: cursiva;
+    src: url(../fuentes/rujakpetis.ttf);
+}
+
+@font-face {
+    font-family: cute;
+    src: url(../fuentes/CUTE\ FROG.ttf);
+}
 
 
 /* -------- Los estilos Ana -------- */

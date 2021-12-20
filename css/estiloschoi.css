@@ -7,6 +7,8 @@ body{
     background-color: #2d2d2d;
 }
 
+/* Seccion general -----------------------------------------------------------*/
+
 a{   text-decoration: none;
     color:black;
 }
@@ -15,24 +17,15 @@ a:hover{
     text-decoration: underline;
 }
 
-#sec1{
-    width: 1100px;
-    margin: auto;
-    clear: both;
-    
-}
-/*Header*/
 header{
     width: 100%;
     float: left;
-    @font-face
-    font-family: Satan;
     background: #00CCCC; /* Old browsers */
-    background: -moz-linear-gradient(top, #00CCCC 0%, #009999 100%); /* FF3.6-15 */
+    background: -moz-linear-gradient(top, #00CCCC 0%, #009999  100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #00CCCC 0%,#009999 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #00CCCC 0%,#009999 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00CCCC', endColorstr='#009999',GradientType=0 ); /* IE6-9 */
-      
+    background: linear-gradient(to bottom, #00CCCC 0%,#009999  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00CCCC', endColorstr='#009999 ',GradientType=0 ); /* IE6-9 */
+        box-shadow: 0px 3px 5px #808080;
 }
 
 #subheader{
@@ -50,7 +43,7 @@ header{
 }
 
 #logotipo a{
-    font-family:Satan;
+    font-family: patitas;
     font-size: 80px;
     color: #000066;
     
@@ -59,20 +52,19 @@ header{
 #logotipo a:hover{text-decoration: none;}
 
 
-
-/*--Menu --*/
+/*--Menu--*/
 
 header #subheader nav{
     float: left;
     width: 660px;
-    padding: 30px 0px;
+    padding: 40px 0px;
     text-align: center;
     
 }
 
 header #subheader nav ul li{
     display: inline;/*elemtos mostrados en linea*/
-    font-family: Satan;
+    font-family: patitas;
      
     
 }
@@ -89,6 +81,65 @@ header #subheader nav ul li a:hover{
     color:#006666;
     background: #FF99CC;
     text-decoration: none;
+}
+
+/*Pie de pagina GENERAL*/
+
+.pie{
+    padding: auto;
+    width: 100%;
+    float: left;
+    @font-face
+    font-family: cursiva;
+    background: #009999; /* Old browsers */
+    background: -moz-linear-gradient(top, #009999 0%, #006666  100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #009999 0%,#006666  100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #009999 0%,#006666  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#006666 ',GradientType=0 ); /* IE6-9 */
+        box-shadow: 5px 5px 5px 5px #808080;
+    margin-top: 20px;
+}
+
+.letra{
+    font-size: 15px;
+    padding-left: auto;
+    font-family: Bodo;
+}
+
+#redes-s{  
+    float: left;
+    width: 300px;
+    padding: 10px 10px;
+    
+}
+
+#derechos{
+    float: right;
+    width: 900px;
+    padding: 50px;
+    
+}
+
+.h3{
+    font-size: 18x;  
+}
+
+#profe{
+    float: left;
+    width: auto;
+    padding: 10px;
+    
+}
+
+/*Fin de Seccion general----------------------------------------------------------------------*/
+
+
+
+#sec1{
+    width: 1100px;
+    margin: auto;
+    clear: both;
+    
 }
 
 .ib{
@@ -198,51 +249,3 @@ aside .widget{
     height: 208px;
     border-radius: 25px;
 }
-
-.pie{
-    padding: auto;
-    width: 100%;
-    float: left;
-    @font-face
-    font-family: Satan;
-    background: #009999; /* Old browsers */
-    background: -moz-linear-gradient(top, #009999 0%, #006666  100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #009999 0%,#006666  100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #009999 0%,#006666  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#006666 ',GradientType=0 ); /* IE6-9 */
-        box-shadow: 5px 5px 5px 5px #808080;
-
-    font-family:fantasy, inherit, sans-serif;
-    margin-top: 20px;
-}
-
-.letra{
-    font-size: 14px;
-    padding-left: auto;
-
-}
-
-#redes-s{  
-    float: left;
-    width: 300px;
-    padding: 10px 10px;
-    
-}
-
-#derechos{
-    float: right;
-    width: 900px;
-    padding: 50px;
-    
-}
-#profe{
-    float: left;
-    width: auto;
-    padding: 10px;
-    
-}
-
-.h3{
-    font-size: 18x;  
-}
-

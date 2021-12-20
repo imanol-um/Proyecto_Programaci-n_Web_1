@@ -3,8 +3,7 @@
 /*Los estilos generales*/
 
 body{
-    background: #606060;
-    font-family:fantasy, inherit, sans-serif;
+    background-image: url(../media/fondo/cortinas-de-ducha-patron-transparente-oscuro-de-vector-gato-o-perro-huella.jpg.jpg);
         
 }
 
@@ -15,25 +14,14 @@ body{
     margin-right: auto;
     padding-bottom: auto;
     clear: both;
-    
+}
+.borde{
+    padding: 0px 0px 5px 0px;
+    border: PowderBlue 5px dashed;
+    border-radius: 20px;
+
 }
 
-
-.fuente2{
-    
-}
-
-.fuente3{
-    
-}
-
-.fuente4{
-    
-}
-
-.fuente5{
-    
-}
 
 /* Seccion general -----------------------------------------------------------*/
 
@@ -48,8 +36,6 @@ a:hover{
 header{
     width: 100%;
     float: left;
-    @font-face
-    font-family: Maria;
     background: #00CCCC; /* Old browsers */
     background: -moz-linear-gradient(top, #00CCCC 0%, #009999  100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #00CCCC 0%,#009999 100%); /* Chrome10-25,Safari5.1-6 */
@@ -73,7 +59,7 @@ header{
 }
 
 #logotipo a{
-    font-family:Satan;
+    font-family: patitas;
     font-size: 80px;
     color: #000066;
     
@@ -87,14 +73,14 @@ header{
 header #subheader nav{
     float: left;
     width: 660px;
-    padding: 30px 0px;
+    padding: 40px 0px;
     text-align: center;
     
 }
 
 header #subheader nav ul li{
     display: inline;/*elemtos mostrados en linea*/
-    font-family: Satan;
+    font-family: patitas;
      
     
 }
@@ -112,6 +98,7 @@ header #subheader nav ul li a:hover{
     background: #FF99CC;
     text-decoration: none;
 }
+
 /*Pie de pagina GENERAL*/
 
 .pie{
@@ -119,22 +106,20 @@ header #subheader nav ul li a:hover{
     width: 100%;
     float: left;
     @font-face
-    font-family: Satan;
+    font-family: cursiva;
     background: #009999; /* Old browsers */
     background: -moz-linear-gradient(top, #009999 0%, #006666  100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #009999 0%,#006666  100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #009999 0%,#006666  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#006666 ',GradientType=0 ); /* IE6-9 */
         box-shadow: 5px 5px 5px 5px #808080;
-
-    font-family:fantasy, inherit, sans-serif;
     margin-top: 20px;
 }
 
 .letra{
-    font-size: 14px;
+    font-size: 15px;
     padding-left: auto;
-
+    font-family: Bodo;
 }
 
 #redes-s{  
@@ -189,7 +174,7 @@ header #subheader nav ul li a:hover{
     width: 1156px;
     float: left;
     padding: 20px;
-    
+    font-family: cute;
         background: #6666FF; /* Old browsers */
         background: -moz-linear-gradient(top, #6666FF 0%, #6666FF 100%, #6666FF 100%, #6666FF 100%); /* FF3.6-15 */
         background: -webkit-linear-gradient(top, #6666FF 0%,#6666FF 100%,#6666FF 100%,#6666FF 100%); /* Chrome10-25,Safari5.1-6 */
@@ -201,36 +186,37 @@ header #subheader nav ul li a:hover{
         box-shadow: 1px 1px 1px 1px #9999FF;/*Sombra*/
      
 }
+.miniborde{
+    padding: 0px 0px 5px 0px;
+    border-bottom: PowderBlue 5px dashed;
+}
 
 #bienvenidos article h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:white;
+    color:#CCE5FF;
     font-size: 50px;
     margin-bottom: 10px;
     text-align: center;
     }
 
 #bienvenidos article h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:white;
+    color:#CCE5FF;
     font-size: 40px;
     margin-bottom: 10px;
     }
     
 #bienvenidos article h3{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:white;
+    color:#CCE5FF;
     font-size: 35px;
     margin-bottom: 10px;
     }
 
 #bienvenidos article {
-    color:white;
+    color:#CCE5FF;
     line-height: 27px;
 }
 
 #bienvenidos li {
-    color:white;
+    color:#CCE5FF;
     font-size: 28px;
     line-height: 30px;
 }
@@ -252,8 +238,8 @@ header #subheader nav ul li a:hover{
 
 #contenido article .titulo{
     font-size: 33px;
-    font-family: planeas;
-    color:#00FFFF;
+    font-family: Severina;
+    color:#330066;
 }
 
 #contenido article hgroup a{text-decoration: none;}
@@ -262,14 +248,12 @@ header #subheader nav ul li a:hover{
 #contenido article .fecha{
     
     font-size: 22px;
-    color:#FFFFFF;
     margin-bottom: 5px;
 }
 
 #contenido article .simple{
     
     font-size: 22px;
-    color:#FFFFFF;
     margin-bottom: 5px;
 }
 
@@ -282,11 +266,13 @@ header #subheader nav ul li a:hover{
 }
 
 #contenido article p{
-    color: #FFFFFF;
+    color: #003366;
     font-size:14px;
     text-align: justify;
     line-height: 27px;/*espaciando entre cada linea*/
+    font-family: Timoteo;
 }
+
 #contenido article .letrac{
     color: #00CCCC;
     font-size: 14px;
@@ -314,7 +300,7 @@ aside .widget{
 
 aside .widget>h3{
     background: pink;
-    color: #4d78b3;
+    color: #404040;
     width: 317px;
     padding: 10px 0px;
     text-align: center;
@@ -326,7 +312,8 @@ aside .widget>h3{
 
 
 aside .widget{
-    color: white;
+    color: #CCE5FF;
+    font-family: Bodo;
 }
 
 aside .widget ul li{
@@ -342,57 +329,7 @@ aside .widget img{
 
 .letra2{
     font-size: 19px;
-
+    font-family: Timoteo;
 }
 
 
-
-
-/*Pie de pagina*/
-
-.pie{
-    padding: auto;
-    width: 100%;
-    float: left;
-    @font-face
-    font-family: Satan;
-    background: #009999; /* Old browsers */
-    background: -moz-linear-gradient(top, #009999 0%, #006666  100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #009999 0%,#006666  100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #009999 0%,#006666  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#006666 ',GradientType=0 ); /* IE6-9 */
-        box-shadow: 5px 5px 5px 5px #808080;
-
-    font-family:fantasy, inherit, sans-serif;
-    margin-top: 20px;
-}
-
-.letra{
-    font-size: 14px;
-    padding-left: auto;
-
-}
-
-#redes-s{  
-    float: left;
-    width: 300px;
-    padding: 10px 10px;
-    
-}
-
-#derechos{
-    float: right;
-    width: 900px;
-    padding: 50px;
-    
-}
-#profe{
-    float: left;
-    width: auto;
-    padding: 10px;
-    
-}
-
-.h3{
-    font-size: 18x;  
-}
