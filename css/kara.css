@@ -109,16 +109,15 @@ header #subheader nav ul li a:hover{
 
 #redes-s{  
     float: left;
-    width: 300px;
-    padding: 10px 10px;
+    width: 405px;
+    padding: 10px 10px 10px 10px;
     
 }
 
 #derechos{
     float: right;
     width: 900px;
-    padding: 50px;
-    
+    padding-top: 50px;
 }
 
 .h3{
