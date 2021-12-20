@@ -18,6 +18,23 @@ body{
     
 }
 
+
+.fuente2{
+    
+}
+
+.fuente3{
+    
+}
+
+.fuente4{
+    
+}
+
+.fuente5{
+    
+}
+
 /* Seccion general -----------------------------------------------------------*/
 
 a{   text-decoration: none;
@@ -32,7 +49,7 @@ header{
     width: 100%;
     float: left;
     @font-face
-    font-family: Satan;
+    font-family: Maria;
     background: #00CCCC; /* Old browsers */
     background: -moz-linear-gradient(top, #00CCCC 0%, #009999  100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #00CCCC 0%,#009999 100%); /* Chrome10-25,Safari5.1-6 */

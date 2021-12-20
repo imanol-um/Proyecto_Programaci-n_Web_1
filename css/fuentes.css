@@ -1,13 +1,32 @@
 /*Todas las Fuentes*/
+
+/* -------- Fuentes del Main -------- */
+
 @font-face {
-    font-family: Satan;
-    src: url(../fuentes/who\ asks\ satan.ttf);
+    font-family: LockerGnome;
+    src: url(../fuentes/lockergnome.ttf);
 }
 
 @font-face {
-    font-family: planetas;
-    src: url(../fuentes/Planets.otf);
+    font-family: Maria;
+    src: url(../fuentes/maría_dolores.ttf);
 }
+
+@font-face {
+    font-family: MCKLB;
+    src: url(../fuentes/MCKLB___.ttf);
+}
+
+@font-face {
+    font-family: Timoteo;
+    src: url(../fuentes/Timoteo.ttf);
+}
+
+@font-face {
+    font-family: Severina;
+    src: url(../fuentes/SEVERINA.ttf);
+}
+
 
 
 /* -------- Los estilos Ana -------- */
