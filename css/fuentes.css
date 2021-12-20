@@ -36,11 +36,27 @@
 }
 
 @font-face {
-    font-family: Binjay;
-    src: url(../fuentes/Binjay.ttf);
+    font-family: Gihun;
+    src: url(../fuentes/Gihun.ttf);
 }
 
 @font-face {
-    font-family: Gihun;
-    src: url(../fuentes/Gihun.ttf);
+    font-family: Simvoni;
+    src: url(../fuentes/Louis_George_Cafe_Italic.ttf);
+}
+/*Ikneel´s fonts*/
+@font-face {
+    font-family: Bodo;
+    src: url(../fuentes/Bodo\ Amat.ttf);
+}
+@font-face {
+    font-family: Tomodachy ;
+    src: url(../fuentes/Tomodachy.otf);
+}
+
+/*--- Estilos ivan ---*/
+
+@font-face{
+    font-family: gooddog;
+    src: url(..//fuentes/GOODDC__.TTF);
 }

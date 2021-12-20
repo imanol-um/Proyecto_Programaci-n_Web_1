@@ -145,14 +145,30 @@ header #subheader nav ul li a:hover{
     
 }
 
-h1{
-    font-size: 18px;
+.tit{
+    font-size: 50px;
     color: aliceblue;
-    align-content: center;
+    font-family:gooddog ;
 }
-td{
-    font-size: 16px;
-    color: rgb(147, 216, 232);
+.tit1{
+    font-size: 30px;
+    color: aliceblue;
+    font-family:gooddog ;
+}
+.texto{
+    font-size: 20px;
+    font-family: Tomodachy;
+    color: rgb(172, 221, 207);
+}
+.texto1{
+    font-size: 20px;
+    font-family: Tomodachy;
+    color: rgb(233, 218, 160);
+}
+.texto2{
+    font-size: 20px;
+    font-family: Tomodachy;
+    color: rgb(72, 48, 97);
 }
 .thumb{ /*imagen formato*/
     width: 220px; /*largo*/
@@ -160,24 +176,30 @@ td{
     float: left;/*elementos a la izquierda*/
     margin: 0px 10px 10px 0px;
     border-radius: 5px;
-    padding-left: 10px;
+    border:  2px double aliceblue;
+    padding: 5px;
+
     
 }
 .tabla1{
     
-    background-color: #4f98c9;
+    background:linear-gradient(to top, #4f98c9 0%, rgb(25,78,125)100%);
     border-radius: 15px;
     align-content: center;
+    border: 15px dotted rgb(168, 216, 248);
 }
 .tabla2{
     
-    background-color: #77323f;
+    background:linear-gradient(to top,rgb(255,20,50)0% ,#77323f 100% ) ;
     border-radius: 15px;
     align-content: center;
+    border-radius: 35px;
+    border: 15px double rgb(238, 104, 104);
 }
 .tabla3{
-    background-color: #33a533;
+    background:linear-gradient(to bottom,#33a533 0%, rgb(192, 243, 104)) ;
     border-radius: 15px;
     align-content: center;
+    border: 12px dashed rgb(161, 240, 174);
 
 }
